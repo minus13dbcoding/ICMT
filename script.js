@@ -39,7 +39,7 @@ let productList = [commonCard, uncommonCard, boosterPack, rareCard, cardSleeves,
 //Products will revert to this on game reset
 const commonCardReset = new Product("Common Card", 10, 0, 1, 1000, 0)
 const uncommonCardReset = new Product("Uncommon Card", 75, 0, 10, 2000, 0)
-const boosterPackReset = new Product("Booster Park", 250, 0, 125, 5000, 0)
+const boosterPackReset = new Product("Booster Park", 500, 0, 125, 5000, 0)
 let rareCardReset = new Product("Booster Park", 3500, 0, 1250, 10000, 0)
 let cardSleevesReset = new Product("Booster Park", 27000, 0, 12500, 20000, 0)
 let deckBoxReset = new Product("Booster Park", 237500, 0, 93750, 30000, 0)
